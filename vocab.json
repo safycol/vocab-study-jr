@@ -498,5 +498,75 @@
     "example": "失敗を恐れずに挑戦することが成長につながる。",
     "example_ja": "",
     "category": "性格・人物表現"
+  },
+  {
+    "id": 51,
+    "subject": "英語",
+    "word": "apologize",
+    "reading": "アパロチャイズ",
+    "meaning": "謝る、わびる（apologize to A for B「AにBのことで謝る」）",
+    "example": "I apologized to her for being late.",
+    "example_ja": "私は遅刻したことを彼女に謝った。",
+    "category": "動詞"
+  },
+  {
+    "id": 52,
+    "subject": "英語",
+    "word": "celebrate",
+    "reading": "セレブレイトゥ",
+    "meaning": "〜を祝う（記念日・誕生日・クリスマスなどに使う）",
+    "example": "We celebrated her birthday with a cake.",
+    "example_ja": "私たちはケーキで彼女の誕生日を祝った。",
+    "category": "動詞"
+  },
+  {
+    "id": 53,
+    "subject": "英語",
+    "word": "congratulate",
+    "reading": "コングレチュレイトゥ",
+    "meaning": "〜を祝う（努力・幸運について祝う。congratulate A on B「BのことでAを祝う」）",
+    "example": "I congratulated him on winning the championship.",
+    "example_ja": "私は優勝したことを彼に祝った。",
+    "category": "動詞"
+  },
+  {
+    "id": 54,
+    "subject": "英語",
+    "word": "impress",
+    "reading": "インプレス",
+    "meaning": "〜に印象を与える、感銘を与える（be impressed by〜「〜に感銘を受ける」）",
+    "example": "Her performance impressed everyone in the audience.",
+    "example_ja": "彼女の演技は観客全員に感銘を与えた。",
+    "category": "動詞"
+  },
+  {
+    "id": 55,
+    "subject": "英語",
+    "word": "admire",
+    "reading": "エァドゥマイア",
+    "meaning": "〜を称賛する、感心する（admire A for B「Bの理由でAを称賛する」）",
+    "example": "I admire her for never giving up.",
+    "example_ja": "私は決してあきらめない彼女を称賛している。",
+    "category": "動詞"
+  },
+  {
+    "id": 56,
+    "subject": "英語",
+    "word": "respect",
+    "reading": "リスペクトゥ",
+    "meaning": "〜を尊敬する、尊重する（respect A for B「Bの理由でAを尊敬する」）",
+    "example": "We should respect each other's opinions.",
+    "example_ja": "私たちはお互いの意見を尊重すべきだ。",
+    "category": "動詞"
+  },
+  {
+    "id": 57,
+    "subject": "英語",
+    "word": "praise",
+    "reading": "プレイズ",
+    "meaning": "①〜を褒める ②賞賛（praise A for B「BのことでAを褒める」）",
+    "example": "The teacher praised her for her excellent work.",
+    "example_ja": "先生は彼女のすばらしい作品を褒めた。",
+    "category": "動詞・名詞"
   }
 ]
