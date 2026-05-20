@@ -551,6 +551,26 @@ updateBadge();
 // URLパラメータで直接テストモードに
 const _p=new URLSearchParams(location.search);
 if(_p.get('quiz')){switchView('quiz');}
+
+// URLパラメータ ?list=407-500 で範囲内全単語を一覧表示
+const _listParam = _p.get('list');
+if (_listParam) {
+  const _lparts = _listParam.split('-');
+  if (_lparts.length === 2) {
+    const _ls = parseInt(_lparts[0]), _le = parseInt(_lparts[1]);
+    const _listWords = Object.values(ALL_VOCAB)
+      .filter(w => w.number != null && w.number >= _ls && w.number <= _le)
+      .sort((a, b) => a.number - b.number);
+    const _con = document.getElementById('cards');
+    _con.innerHTML = '';
+    _listWords.forEach((w, i) => {
+      const card = makeCard(w.id, currentSubject);
+      if (card) { card.style.animationDelay = (i * 0.02) + 's'; _con.appendChild(card); }
+    });
+    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('pool-status').textContent = _listWords.length + '語 (#' + _ls + '〜#' + _le + ')';
+  }
+}
 </script>
 </body>
 </html>
